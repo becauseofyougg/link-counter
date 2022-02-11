@@ -12,9 +12,8 @@ router.get('/:code', async (req, res) =>{
         }
         res.status(404).json('Link not found')
     } catch (error) {
-         res.status(500).json({message:"something wrong happened"})
+         res.status(500).json({message:"something wrong happened www"})
      }
 })
 
 module.exports = router
-

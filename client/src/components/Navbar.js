@@ -5,10 +5,11 @@ import { AuthContext } from '../context/AuthContext';
 export const Navbar = () => {
     const history = useNavigate()
     const auth = useContext(AuthContext)
+    
     const logoutHandler = event => {
         event.preventDefault()
         auth.logout()
-        history.push('/')
+        history('/', { replace: true })
     }
     return (
         <nav>

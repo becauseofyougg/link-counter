@@ -18,7 +18,7 @@ export const LinksList = ({ links }) => {
       </thead>
 
       <tbody>
-      {links.mmap((link,index) => {
+      {links.map((link,index) => {
           return (
             <tr key={link._id}>
                 <td>{index + 1}</td>
