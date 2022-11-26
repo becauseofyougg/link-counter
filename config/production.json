@@ -2,5 +2,5 @@
     "port": 5000,
     "jwtSecret": "there is no spoon",
     "baseUrl": "http://localhost:5000",    
-    "mongoURI": ""
+    "mongoURI": "mongodb+srv://dimanche:qwert12345@cluster0.rklc9tu.mongodb.net/?retryWrites=true&w=majority"
 }
